@@ -16,7 +16,7 @@ yunkuSdkNode('Rainbow');
 ```
 ## License
 
-MPL-2.0 © [刘星]()
+MPL-2.0 ©
 
 
 [npm-image]: https://badge.fury.io/js/yunku-sdk-node.svg
