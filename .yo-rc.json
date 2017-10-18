@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "刘星",
+      "authorEmail": "liuxingmatt@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
