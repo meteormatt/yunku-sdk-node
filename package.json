@@ -28,15 +28,8 @@
       "node": true
     },
     "rules": {
-      "prettier/prettier": [
-        "error",
-        {
-          "singleQuote": true,
-          "printWidth": 90
-        }
-      ]
-    },
-    "plugins": ["prettier"]
+      "camelcase": "off"
+    }
   },
   "repository": "meteormatt/yunku-sdk-node",
   "license": "MPL-2.0",
