@@ -4,18 +4,18 @@
 
 http://developer.gokuai.com/
 
-目前支持`部门和成员操作` `库操作` `库文件操作`
+目前支持[部门和成员操作](http://developer.gokuai.com/yk3/ent.html) [库操作](http://developer.gokuai.com/yk3/library.html) [库文件操作](http://developer.gokuai.com/yk3/file.html)
 
 - [安装](#安装)
 - [初始化](#初始化)
 - [部门和成员操作](#部门和成员操作)
-	- [request](#request)
+	- [request(pathname, params, callback)](#request)
 - [库操作](#库操作)
-	- [request](#request-1)
+	- [request(pathname, params, callback)](#request-1)
 - [库文件操作](#库文件操作)
-	- [request](#request-2)
-	- [multipart](#multipart)
-	- [webupload](#webupload)
+	- [request(pathname, params, callback)](#request-2)
+	- [multipart(pathname, params, callback)](#multipart)
+	- [webupload(url, params, callback)](#webupload)
 
 ## 安装
 
