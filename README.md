@@ -29,7 +29,7 @@ $ npm install --save yunku-sdk-node
 
 `org_client_id` `org_client_secret` 属于[库授权](http://developer.gokuai.com/grant/library.html)
 
-`host` 为API域名
+`host` 为API域名. 例如`yk3-api-ent.gokuai.com`
 
 ```js
 const yunkuSdkNode = require('yunku-sdk-node');
