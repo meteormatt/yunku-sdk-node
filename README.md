@@ -11,8 +11,9 @@ http://developer.gokuai.com/
 - [部门和成员操作](#部门和成员操作)
 	- [request](#request)
 - [库操作](#库操作)
+	- [request](#request-1)
 - [库文件操作](#库文件操作)
-	- [request](#request)
+	- [request](#request-2)
 	- [multipart](#multipart)
 	- [webupload](#webupload)
 
@@ -84,6 +85,8 @@ api.request('/1/ent/get_members', {}, (error, result) => {
 
 http://developer.gokuai.com/yk3/library.html
 和`部门和成员操作`一样。
+
+#### request
 
 以[库信息](http://developer.gokuai.com/yk3/library.html#%E5%BA%93%E4%BF%A1%E6%81%AF)为例
 
