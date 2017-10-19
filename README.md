@@ -40,7 +40,7 @@ var api = new yunkuSdkNode({
 });
 ```
 
-### [部门和成员操作]
+### 部门和成员操作
 
 http://developer.gokuai.com/yk3/ent.html
 所有的操作都类似。请求参数中的`client_id` `dateline` `sign` 不需要填入。SDK会填充这些字段。
@@ -79,7 +79,7 @@ api.request('/1/ent/get_members', {}, (error, result) => {
 {"list":[{"member_id":"1023117","out_id":"","account":"","member_name":"gyb","member_email":"a@gokuai.cn","state":"1"}],"count":"105"}
 ```
 
-### [库操作]
+### 库操作
 
 http://developer.gokuai.com/yk3/library.html
 和`部门和成员操作`一样。
@@ -102,7 +102,7 @@ api.request('/1/org/info', {org_id: 26817}, (error, result) => {
 {"info":{"org_id":26817,"org_name":"\u6240\u6709\u6743\u9650","org_desc":"","org_logo_url":"http:\/\/gkavatar2.oss-cn-hangzhou.aliyuncs.com\/e2\/e295a7db46a9935b4fb32394ec36dc04d5046c3b.jpg","size_org_total":10737418240,"size_org_use":9840896817,"file_count":273,"dir_count":65,"mount_id":26818,"collection_code":""}}
 ```
 
-### [库文件操作]
+### 库文件操作
 
 http://developer.gokuai.com/yk3/file.html
 所有的操作都类似。请求参数中的`org_client_id` `dateline` `sign` 不需要填入。SDK会填充这些字段。
